@@ -12,7 +12,9 @@
 		<button class="navbar-toggler navbar-toggler-right justify-content-end" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/logo.png" width="180" height="45" class="d-inline-block align-top" alt=""></a>
+		<a class="navbar-brand" href="#">
+			<img src="<?php echo get_template_directory_uri(); ?>/dist/img/logo.png" width="180" height="45" class="d-inline-block align-top" alt="">
+		</a>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item active">

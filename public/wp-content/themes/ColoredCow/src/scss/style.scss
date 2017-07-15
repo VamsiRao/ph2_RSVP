@@ -33,9 +33,8 @@ Text Domain: coloredcow
 		display: block;
 	}
 }
-////
-.btn:hover
-{
+
+.btn:hover{
 	cursor: pointer;
 }
 .images_carousel{
@@ -47,26 +46,24 @@ Text Domain: coloredcow
 }
 .about{
 	padding-left: 22px;
-	font-style: initial;
-	font-style: Antic; 
-	color:white;
+	color:$about_color;
 	text-align: justify;
 }
 .eventdata{
-	color: white;
+	color: $event_data_color;
 	text-align: center;
 }
 body{
-	background-image: url('bg.png');
+	background-image: url('dist/img/bg.png');
 	background-repeat: no-repeat;
 }
-#footer {
+.footer {
 	text-align:center;
 	bottom: 0;
 	width: 100%;
 	height:60px;
-    background-color: black;
-    color: white;
+    background-color:$footer_bg_color;
+    color: $footer_text_color;
 }
 
 @import 'media';
