@@ -18,10 +18,10 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a role="button" class="btn btn-outline-secondary"  href="http://localhost/ph2_RSVP/public/wp/wp-admin" style="font-family: 'Oswald'; font-size: 17px;">Admin Login
+					<a role="button" class="btn btn-outline-secondary font-oswald"  href="http://localhost/ph2_RSVP/public/wp/wp-admin" >Admin Login
 						<span class="sr-only">(current)</span>
 					</a>
-				</li>&nbsp;
+				</li>
 			</ul>
 		</div>
 	</nav>
