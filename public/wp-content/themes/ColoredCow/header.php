@@ -13,12 +13,13 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<a class="navbar-brand" href="#">
-			<img src="<?php echo get_template_directory_uri(); ?>/dist/img/logo.png" width="180" height="45" class="d-inline-block align-top" alt="">
+			<?php $img_url=get_template_directory_uri().'/dist/img/logo.png'; ?>
+			<img src="<?= esc_url($img_url) ?>"  class="d-inline-block align-top" alt="">
 		</a>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a role="button" class="btn btn-outline-secondary font-oswald"  href="http://localhost/ph2_RSVP/public/wp/wp-admin" >Admin Login
+					<a role="button" class="btn btn-outline-secondary font-oswald"  href="<?=admin_url()?>" >Admin Login
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>

@@ -69,5 +69,9 @@ body{
     background-color:$black;
     color: $white;
 }
+.navbar-brand>img{
+	width:180px;
+	height:45px;
+}
 
 @import 'media';
