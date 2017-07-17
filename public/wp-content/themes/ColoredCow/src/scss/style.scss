@@ -34,4 +34,18 @@ Text Domain: coloredcow
 	}
 }
 
+body{
+	background-image: url('dist/img/bg.png');
+	background-repeat: no-repeat;
+
+}
+
+.navbar-inverse {
+	background-color:$black;
+}
+
+
+
+
+
 @import 'media';
