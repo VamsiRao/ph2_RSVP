@@ -34,18 +34,46 @@ Text Domain: coloredcow
 	}
 }
 
+
+.btn:hover{
+	cursor: pointer;
+}
+
+.images_carousel{
+	position: center;
+	display: block;
+	width:765px;
+	height:500px;
+}
+
+.about{
+	padding-left: 22px;
+	color:$white;
+	text-align: justify;
+}
+
+.eventdata{
+	color: $white;
+	text-align: center;
+}
+
+.footer {
+	text-align:center;
+	bottom: 0;
+	width: 100%;
+	height:60px;
+	background-color:$black;
+	color: $white;
+}
+.navbar-brand>img{
+	width:180px;
+	height:45px;
+}
+
 body{
 	background-image: url('dist/img/bg.png');
 	background-repeat: no-repeat;
 
 }
-
-.navbar-inverse {
-	background-color:$black;
-}
-
-
-
-
 
 @import 'media';
