@@ -67,15 +67,33 @@ Text Domain: coloredcow
 	min-height: 70px;
 	margin-top: 100px;
 }
+
 .navbar-brand>img{
 	width:180px;
 	height:45px;
 }
 
 body{
+	margin-top:100px;
+	padding-top:50px;
 	background-image: url('dist/img/bg.png');
 	background-repeat: no-repeat;
 
 }
+
+.soiree-header{
+	color:$goldenrod;
+	font-size:85px;
+}
+
+.soiree-text{
+	margin-top:30px;
+	margin-bottom:5px;
+	color:$white;
+	font-size:1.25rem;
+	font-weight:300;
+}
+
+
 
 @import 'media';
