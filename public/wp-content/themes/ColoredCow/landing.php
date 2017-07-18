@@ -18,11 +18,21 @@
 				<button type="button" class="btn btn-outline-warning btn-lg join-button" data-toggle="modal" data-target="#request_modal">Request Invite</button>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6">
-			
+		<div class="col-xs-12 col-md-6 font-marcellus event-col">
+			<div class="event-name">Event Name</div>
+			<br>
+			<div class="event-date-loc">
+				<i class="fa fa-calendar" style=" color:black;" aria-hidden="true"></i> Date
+			</div>
+			<br>
+			<div class="event-date-loc">
+				<i class="fa fa-map-marker fa-lg" style=" color:black;" aria-hidden="true"></i> Location
+			</div>
+			<br>			
 		</div>
 	</div>
 </div>
+
 <div id="request_modal" class="modal fade" role="form">
 	<div class="modal-dialog">
 		<div class="modal-content">
@@ -32,44 +42,42 @@
 			</div>
 			<div class="modal-body">				
 				<div class="row">						
-					
-						<form  id="request_form" class="col-sm-12" name="request_form" data-toggle="validator">
-							<div class="form-group  col-sm-12">
-								<label for="request_name" class="control-label" >Name</label>
-								<input type="text" class="form-control" id="request_name" name="request_name" placeholder="Your Name" required>
-							</div>
-							<div class="form-group  col-sm-12">
-								<label for="request_email" >Email Address</label>
-								<input type="email" class="form-control" id="request_email" name="request_email" placeholder="Your Email Addr." required>
-							</div>
-							<div class="form-group  col-sm-12">
-								<label for="request_phone" >Phone Number</label>
-								<input type="number" class="form-control" id="request_phone" name="request_phone" placeholder="Your Phone No." required>
-							</div>
-							<div class="col-sm-12">
-								<strong>Gender:</strong>																
-								<div class="row">
-									<div class="col-sm-12">
-									</div>										
-									<div class="col-sm-4">
-										<label class="radio-inline" >
-											<input type="radio" name="inlineRadioOptions" id="male" value="male"> Male
-										</label>
-									</div>
-									<div class="col-sm-4">
-										<label class="radio-inline">
-									  		<input type="radio" name="inlineRadioOptions" id="female" value="female" required> Female
-										</label>
-									</div>
-									<div class="col-sm-4">
-										<label class="radio-inline">
-									  		<input type="radio" name="inlineRadioOptions" id="others" value="others" required> Other
-										</label>
-									</div>										
+					<form  id="request_form" class="col-sm-12" name="request_form" data-toggle="validator">
+						<div class="form-group  col-sm-12">
+							<label for="request_name" class="control-label" >Name</label>
+							<input type="text" class="form-control" id="request_name" name="request_name" placeholder="Your Name" required>
+						</div>
+						<div class="form-group  col-sm-12">
+							<label for="request_email" >Email Address</label>
+							<input type="email" class="form-control" id="request_email" name="request_email" placeholder="Your Email Addr." required>
+						</div>
+						<div class="form-group  col-sm-12">
+							<label for="request_phone" >Phone Number</label>
+							<input type="number" class="form-control" id="request_phone" name="request_phone" placeholder="Your Phone No." required>
+						</div>
+						<div class="col-sm-12">
+							<strong>Gender:</strong>																
+							<div class="row">
+								<div class="col-sm-12">
+								</div>										
+								<div class="col-sm-4">
+									<label class="radio-inline" >
+										<input type="radio" name="inlineRadioOptions" id="male" value="male"> Male
+									</label>
 								</div>
-							</div>								
-						</form>
-					
+								<div class="col-sm-4">
+									<label class="radio-inline">
+								  		<input type="radio" name="inlineRadioOptions" id="female" value="female" required> Female
+									</label>
+								</div>
+								<div class="col-sm-4">
+									<label class="radio-inline">
+								  		<input type="radio" name="inlineRadioOptions" id="others" value="others" required> Other
+									</label>
+								</div>										
+							</div>
+						</div>								
+					</form>
 				</div>						
 			</div>
 			<div class="modal-footer">
