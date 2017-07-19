@@ -33,6 +33,37 @@
 			<br>			
 		</div>
 	</div>	
+	<div class="container carousel-section">
+		<div class="col-sm-12 col-md-12 carousel-col">
+			<h class="carousel-heading"><i class="fa fa-camera-retro fa-1x"></i>&nbsp;Event Gallery</h>
+			<div id="carousel-indicators" class="carousel slide"  data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-indicators" data-slide-to="1"></li>
+					<li data-target="#carousel-indicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img class="d-block img-fluid images_carousel" src="<?php echo get_template_directory_uri(); ?>/dist/img/soiree1.jpg" alt="1">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block img-fluid images_carousel" src="<?php echo get_template_directory_uri(); ?>/dist/img/soiree2.jpg" alt="2">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block img-fluid images_carousel" src="<?php echo get_template_directory_uri(); ?>/dist/img/soiree3.jpg" alt="3">
+					</div>
+				</div>
+					<a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+			</div>
+		</div>
+	</div>	
 </div>
 
 <div id="request_modal" class="modal fade" role="form">
