@@ -9,28 +9,30 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-md-6">
-			<h5 class="soiree-header font-marcellus">Soiree</h5>
-			<p class="soiree-text font-inherit" >ColoredCow celebrates every first Saturday of the month with family and friends. This custom has been started to take a little time off from work and enjoy some moments in life. we believe in sharing moments and learning with each other. Come and join us over music, food, drinks and some moments full of laughter and joy.</p>
+		<div class="col-sm-12 col-md-6">
+			<h class="soiree-header">Soiree</h>
+			<p class="soiree-text">ColoredCow celebrates every first Saturday of the month with family and friends. This custom has been started to take a little time off from work and enjoy some moments in life. we believe in sharing moments and learning with each other. Come and join us over music, food, drinks and some moments full of laughter and joy.</p>
 			<hr>				
-			<div class="col-md-odffset-1 col-md-12 col-xs-12 text-center">
-				<h5 class="join-header font-marcellus">Wanna Join The Party?</h5>				
-				<button type="button" class="btn btn-outline-warning btn-lg join-button" data-toggle="modal" data-target="#request_modal">Request Invite</button>
+			<div class="col-md-odffset-1 col-md-12 col-sm-12 text-center">
+				<h class="join-header">Wanna Join The Party?</h>
+				<div>				
+					<button type="button" class="btn btn-outline-warning btn-lg join-button" data-toggle="modal" data-target="#request_modal">Request Invite</button>
+				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6 font-marcellus event-col">
+		<div class="col-sm-12 col-md-6 event-col">
 			<div class="event-name">Event Name</div>
 			<br>
-			<div class="event-date-loc">
+			<div class="event-date-location">
 				<i class="fa fa-calendar" style=" color:black;" aria-hidden="true"></i> Date
 			</div>
 			<br>
-			<div class="event-date-loc">
+			<div class="event-date-location">
 				<i class="fa fa-map-marker fa-lg" style=" color:black;" aria-hidden="true"></i> Location
 			</div>
 			<br>			
 		</div>
-	</div>
+	</div>	
 </div>
 
 <div id="request_modal" class="modal fade" role="form">

@@ -34,7 +34,6 @@ Text Domain: coloredcow
 	}
 }
 
-
 .btn:hover{
 	cursor: pointer;
 }
@@ -78,10 +77,10 @@ body{
 	padding-top:50px;
 	background-image: url('dist/img/bg.png');
 	background-repeat: no-repeat;
-
 }
 
 .soiree-header{
+	@extend .font-marcellus;
 	color:$goldenrod;
 	font-size:85px;
 }
@@ -90,11 +89,13 @@ body{
 	margin-top:30px;
 	margin-bottom:5px;
 	color:$white;
+	font-style: inherit;
 	font-size:1.25rem;
 	font-weight:300;
 }
 
 .join-header{
+	@extend .font-marcellus;
 	font-size:25px;
 	color:$white;
 	text-align:center;
@@ -109,6 +110,7 @@ label{
 }
 
 .event-col{
+	@extend .font-marcellus;
 	color:$white;
 	padding:10px;
 	padding-top:70px;
@@ -116,12 +118,21 @@ label{
 }
 
 .event-name{
+	@extend .font-marcellus;	
 	font-size:60px;
 }
 
-.event-date-loc{
+.event-date-location{
+	@extend .font-marcellus;
 	font-size:35px;
 }
 
+.carousel-row{
+	margin-top:10px;
+}
+
+.carousel-row>hr{
+	border-width:3px;
+}
 
 @import 'media';
