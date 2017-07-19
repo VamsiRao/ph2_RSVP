@@ -34,7 +34,6 @@ Text Domain: coloredcow
 	}
 }
 
-
 .btn:hover{
 	cursor: pointer;
 }
@@ -67,15 +66,73 @@ Text Domain: coloredcow
 	min-height: 70px;
 	margin-top: 100px;
 }
+
 .navbar-brand>img{
 	width:180px;
 	height:45px;
 }
 
 body{
+	margin-top:100px;
+	padding-top:50px;
 	background-image: url('dist/img/bg.png');
 	background-repeat: no-repeat;
+}
 
+.soiree-header{
+	@extend .font-marcellus;
+	color:$goldenrod;
+	font-size:85px;
+}
+
+.soiree-text{
+	margin-top:30px;
+	margin-bottom:5px;
+	color:$white;
+	font-style: inherit;
+	font-size:1.25rem;
+	font-weight:300;
+}
+
+.join-header{
+	@extend .font-marcellus;
+	font-size:25px;
+	color:$white;
+	text-align:center;
+}
+
+.join-button{
+	margin-top:10px;
+}
+
+label{
+	font-weight:700;
+}
+
+.event-col{
+	@extend .font-marcellus;
+	color:$white;
+	padding:10px;
+	padding-top:70px;
+	text-align:center;
+}
+
+.event-name{
+	@extend .font-marcellus;	
+	font-size:60px;
+}
+
+.event-date-location{
+	@extend .font-marcellus;
+	font-size:35px;
+}
+
+.carousel-row{
+	margin-top:10px;
+}
+
+.carousel-row>hr{
+	border-width:3px;
 }
 
 @import 'media';
